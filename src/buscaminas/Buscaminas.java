@@ -16,7 +16,5 @@ public class Buscaminas {
     public static void main(String[] args) {
        Juego buscaMinas=new Juego();
        buscaMinas.menu();
-//       Juego jg =new Juego();
-  //     jg.Jugar();
     }
 }

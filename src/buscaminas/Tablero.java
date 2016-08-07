@@ -14,14 +14,14 @@ import javax.swing.JOptionPane;
 public class Tablero {
     private int minas [][];
     private boolean elegidos [][];
-    private final int filas;
+    private final int lineas;
     /**
      *Metodo para crear el tablero
      */
      public int tablero [][] = new int[0][0]; { 
-         filas=Integer.parseInt(JOptionPane.showInputDialog("Ingrese numero de Filas"));
-        for (int i = 0; i < filas; i++) {
-            for (int j = 1; j < filas; j++) 
+         lineas=Integer.parseInt(JOptionPane.showInputDialog("Ingrese numero de Filas"));
+        for (int i = 0; i < lineas; i++) {
+            for (int j = 1; j < lineas; j++) 
             {
                 System.out.print("[ ]");
             }

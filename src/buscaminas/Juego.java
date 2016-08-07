@@ -24,12 +24,10 @@ public class Juego {
             System.out.println("             BUSCAMINAS         ");
             System.out.println("================================");
             Tablero tb = new Tablero(); 
+            
         break;
         case 2:      
         break;
     } 
- //  } while (opciones!=2);
-      } 
-     //   public void Jugar(){ 
-    //}
+    }
 }
